@@ -8,8 +8,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val x = 10
+        var x = 10
         val y = 30
         val b = 2
+        val semi = "truck"
     }
 }
