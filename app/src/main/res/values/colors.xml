@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#696969</color>
     <color name="colorAccent">#FF4081</color>
     <color name="your_color">#FFFFFF</color>
+    <color name="swoosh_color">#63000000</color>
 </resources>

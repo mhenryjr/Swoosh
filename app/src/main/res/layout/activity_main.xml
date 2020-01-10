@@ -10,6 +10,7 @@
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,8 +20,22 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/welcomescreenbg" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="331dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:text="GO ALL IN"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/getStartedBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/swooshbutton"
@@ -41,21 +56,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:srcCompat="@drawable/swooshlogo" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="319dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="100dp"
-        android:gravity="center"
-        android:text="GO ALL IN"
-        android:textColor="#FFFFFF"
-        android:textSize="60sp"
-        app:fontFamily="@font/montserrat"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:srcCompat="@drawable/swooshlogo"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView3"
@@ -73,18 +75,18 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="251dp"
-        android:layout_height="62dp"
+        android:layout_width="210dp"
+        android:layout_height="117dp"
         android:singleLine="false"
-        android:text="@string/find_a_team_in_your_city_dominate_the_league"
+        android:text="Find a team in your city &amp; dominate the league."
         android:textColor="#FFFFFF"
         android:textSize="17sp"
         app:fontFamily="@font/montserrat"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/getStartedBtn"
         app:layout_constraintEnd_toEndOf="@+id/textView3"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="0.039" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
